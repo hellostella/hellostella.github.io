@@ -16,14 +16,10 @@
   outline:0;
 }
 body {
-  background: url('http://i.imgur.com/pbrY2ri.jpg');
-  background-size: cover;
   font-family: 'Lobster', cursive;
-  font-size: 1em; padding: 0; margin: 0; }
-
-img {
-  border: none;
-}
+  background: #fff;
+  font-size: 1em; padding: 0; margin: 0;
+  }
 a {
   color: #777;
   text-decoration: none;
@@ -39,12 +35,15 @@ li {
   }
 .wrap {
   margin: 0 auto;
-  width: 950px;
-  background: #fff;
+  width: 100%;
+  text-align: center;
   }
+
 .header {
-  height: 80px;
-  background: #222;
+  background: url('http://i.imgur.com/pbrY2ri.jpg');
+  background-size: cover;
+  height: 400px;
+  width: 100%;
   margin: 0 0 10px 0;
   }
 .header a {
@@ -52,7 +51,7 @@ li {
   text-decoration: none;
   }
 .header h1 {
-  color: #fff;
+  color: #eee;
   font-size: 2em;
   padding: 20px 0 0 20px;
   font-weight: 100;
@@ -68,7 +67,7 @@ li {
   padding: 30px 20px 0 0;
   }
 .project-links-links a {
-  color:#fff;
+  color:black;
   padding: 0 10px;
   }
 .project-links-links a:hover {
@@ -77,14 +76,13 @@ li {
 .project-links {
   width: 210px;
   float: right;
-  background: #FFF;
-  color: #666;
+  color: black;
   margin-right: 20px;
   }
 .project-links .side-box {
   margin-bottom: 10px;
   padding: 10px 3px;
-  color: #666;
+  color: black;
   }
 .project-links h2 {
   font-size: 1.2em;
@@ -102,7 +100,7 @@ li {
   margin: 0 auto;
 }
 .content h2 {
-  color: #555;
+  color: #fff;
   font-size: 1.4em;
   font-weight: 200;
   }
