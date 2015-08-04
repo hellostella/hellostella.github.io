@@ -29,7 +29,7 @@ a:hover {
   text-decoration: none;
   }
 li {
-  color: #036DA7;
+  color: black;
   list-style-type: none;
   margin-bottom: 6px;
   }
@@ -42,8 +42,7 @@ li {
 .header {
   background: url('http://i.imgur.com/pbrY2ri.jpg');
   background-size: cover;
-  height: 400px;
-  width: 100%;
+
   margin: 0 0 10px 0;
   }
 .header a {
