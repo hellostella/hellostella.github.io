@@ -54,11 +54,13 @@ h1{
 	font-size:120%;
 	border-bottom:1px #ddd solid;
 	cursor:pointer;
+	border-radius: 10px 10px 10px 10px;
 }
 
 .faq li.a{
 	background:#ddd;
 	display:none;
+	border-radius: 10px 10px 10px 10px;
 }
 
 .rotate{
